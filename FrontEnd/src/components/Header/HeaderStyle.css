@@ -1,0 +1,20 @@
+.imgClass{
+    display: flex;
+    margin-left: 60px;
+}   
+
+.headerClass{
+    background-color: green;
+}
+
+.name{
+    padding-left: 10px;
+    padding-top: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgtag{
+    height: 150px;
+    width: 150px;
+}
