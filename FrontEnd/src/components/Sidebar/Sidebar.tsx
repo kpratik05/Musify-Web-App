@@ -3,6 +3,7 @@ import {AiFillHome} from 'react-icons/ai'
 import { AiOutlineSearch } from 'react-icons/ai'
 import {MdPlaylistAddCheck} from 'react-icons/md'
 import {RiPlayListFill} from 'react-icons/ri'
+import {RiMoneyDollarBoxLine} from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import './SidebarStyle.css'
 
@@ -13,6 +14,7 @@ const SidebarFunc=()=>{
             <Link to={"/search"}><div className="side_item">< AiOutlineSearch className='item'/>Search</div></Link>
             <Link to={"/myplaylist"}><div className="side_item"><MdPlaylistAddCheck className='item'/>Playlist</div></Link>
             <Link to={"/favs"}><div className="side_item"><RiPlayListFill className='item'/>Favourites</div></Link>
+            <Link to={"/payment"}><div className="side_item"><RiMoneyDollarBoxLine className='item'/>Get Premium</div></Link>
         </div>
     );
 }
